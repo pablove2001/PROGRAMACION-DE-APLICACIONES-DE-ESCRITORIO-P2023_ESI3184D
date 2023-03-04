@@ -1,0 +1,23 @@
+@mixin mx-width-880 {
+    @media screen and (max-width: 880px) {
+        @content;
+    }
+}
+
+@mixin mx-width-760 {
+    @media screen and (max-width: 760px) {
+        @content;
+    }
+}
+
+@mixin mx-width-650 {
+    @media screen and (max-width: 650px) {
+        @content;
+    }
+}
+
+@mixin mx-width-580 {
+    @media screen and (max-width: 580px) {
+        @content;
+    }
+}

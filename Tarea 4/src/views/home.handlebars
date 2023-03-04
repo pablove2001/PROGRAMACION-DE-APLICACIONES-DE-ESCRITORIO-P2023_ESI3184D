@@ -1,0 +1,17 @@
+<section id="home">
+    <ul>
+        {{#each articles}}
+        <li>
+            <div>
+                <h3>
+                    {{this.title}}
+                </h3>
+                <p>
+                    {{this.description}}
+                </p>
+            </div>
+
+        </li>
+        {{/each}}
+    </ul>
+</section>
